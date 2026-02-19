@@ -29,7 +29,7 @@ body {
 /* Title styling */
 #page-title {
   color: #0b5ed7;              /* title colour */
-  font-size: 2.2rem;           /* appropriate font size */
+  font-size: 2.5rem;           /* appropriate font size */
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
@@ -43,12 +43,11 @@ body {
 
 /* Image styling */
 .vehicle-image {
-  width: 75%;             /* makes it responsive */
-  max-width: 650px;     /* keeps it from getting too huge */
+  width: 100%;             /* makes it responsive */
+  max-width: 50%;     /* keeps it from getting too huge */
   height: auto;         /* keeps proportions */
   display: block;
   margin: 0 auto 15px auto;
-
   border: 4px solid #0b5ed7;   /* border around image */
   border-radius: 10px;
 }
