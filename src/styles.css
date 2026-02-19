@@ -1,0 +1,89 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+
+  /* Background colour + optional image */
+  background-color: #f4f6f8;
+  
+  color: #222;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Title styling */
+#page-title {
+  color: #0b5ed7;              /* title colour */
+  font-size: 2.2rem;           /* appropriate font size */
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Image styling */
+.vehicle-image {
+  width: 75%;             /* makes it responsive */
+  max-width: 650px;     /* keeps it from getting too huge */
+  height: auto;         /* keeps proportions */
+  display: block;
+  margin: 0 auto 15px auto;
+
+  border: 4px solid #0b5ed7;   /* border around image */
+  border-radius: 10px;
+}
+
+/* Description styling */
+.vehicle-description {
+  font-family: "Georgia", serif; /* different font */
+  color: #444;
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+}
+
+/* Link styled as a button */
+.btn-link {
+  display: inline-block;
+  text-decoration: none;
+
+  background-color: #0b5ed7;
+  color: white;
+
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.btn-link:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.site-footer {
+  text-align: center;
+  margin-top: 22px;
+  color: #666;
+  font-size: 0.9rem;
+}
